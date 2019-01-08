@@ -8,7 +8,6 @@ import numpy as np
 from gensim.models import KeyedVectors
 
 
-glove_path = 'glove'
 word2vec_path = 'Word2Vec'
 
 
@@ -55,47 +54,6 @@ def data_padding(data, length=50):
     return padded_data
 
 
-# generate Glove class
-class VocabGlove(object):
-    def __init__(self):
-        word_vec_list = []
-        with open(os.path.join(glove_path, "glove.6B.100d.txt")) as f:
-            for line in f:
-                line = line.strip().split()
-                word_vec_list.append((line[0], np.array(line[1:], dtype=np.float32)))
-        self.vocab_size = len(word_vec_list)
-
-        self.token2id = {w_v[0]: i for i, w_v in enumerate(word_vec_list, 4)}
-        self.id2token = {i: w for w, i in self.token2id.items()}
-
-        self.pad_token = '<PAD>'
-        self.token2id.update({self.pad_token: 0})
-        self.id2token.update({self.token2id[self.pad_token]: self.pad_token})
-        word_vec_list.insert(0, (self.pad_token, np.zeros(100)))
-        self.vocab_size += 1
-
-        self.unk_token = '<UNK>'
-        self.token2id.update({self.unk_token: 1})
-        self.id2token.update({self.token2id[self.unk_token]: self.unk_token})
-        word_vec_list.insert(1, (self.unk_token, np.zeros(100)))
-        self.vocab_size += 1
-
-        self.unk_token = '<SOS>'
-        self.token2id.update({self.unk_token: 2})
-        self.id2token.update({self.token2id[self.unk_token]: self.unk_token})
-        word_vec_list.insert(2, (self.unk_token, np.zeros(100)))
-        self.vocab_size += 1
-
-        self.unk_token = '<EOS>'
-        self.token2id.update({self.unk_token: 3})
-        self.id2token.update({self.token2id[self.unk_token]: self.unk_token})
-        word_vec_list.insert(3, (self.unk_token, np.zeros(100)))
-        self.vocab_size += 1
-
-        word_vec_dict = dict(word_vec_list)
-        self.embeddings = np.array([word_vec_dict.get(self.id2token.get(idx)) for idx in range(self.vocab_size)])
-        # print("vocab_size: {}".format(self.vocab_size))
-
 # generate word2vec class
 w2v_path = os.path.join(word2vec_path, "w2v_word_py3_baidu_0810")
 word_vectors = KeyedVectors.load(w2v_path)
@@ -141,76 +99,6 @@ class VocabWord2vec(object):
         self.PAD_ID = self.token2id[self.pad_token]
 
         assert len(self.token2id) == len(self.id2token) == len(self.token2embed) == self.vocab_size
-
-
-
-
-def get_index_data_from_glove(train_data_padded, test_data_padded):
-    word_vocab = VocabGlove()
-    train_index_padded_data = []
-    test_index_padded_data = []
-
-    train_seq_in, train_seq_out, train_intent = list(zip(*train_data_padded))
-    test_seq_in, test_seq_out, test_intent = list(zip(*test_data_padded))
-
-    slot_tag = set(np.array(train_seq_out + test_seq_out).flatten())
-    # slot_tag = set(np.array(train_seq_out).flatten())
-    slot_tag = sorted(slot_tag)
-    slot_size = len(slot_tag)+1
-    # print('slot_tag shape')
-    # print (len(slot_tag))
-
-    intent_tag = set(np.array(train_intent + test_intent).flatten())
-    # intent_tag = set(np.array(train_intent).flatten())
-    intent_tag = sorted(intent_tag)
-    intent_size = len(intent_tag)+1
-    # print(len(intent_tag))
-
-    index2word = word_vocab.id2token
-
-    # 生成tag2index
-    tag2index = {'<PAD>': 0, '<UNK>': 1, "O": 2}
-    for tag in slot_tag:
-        if tag not in tag2index.keys():
-            tag2index[tag] = len(tag2index)
-    # 生成index2tag
-    index2tag = {v: k for k, v in tag2index.items()}
-
-
-    # 生成intent2index
-    intent2index = {'<UNK>': 0}
-    for ii in intent_tag:
-        if ii not in intent2index.keys():
-            intent2index[ii] = len(intent2index)
-    index2intent = {v: k for k, v in intent2index.items()}
-
-    for sin, sout, intent in train_data_padded:
-        # get the value of word2index[i] 
-
-        sin_ix = list(map(lambda i: word_vocab.token2id[i] if i in word_vocab.token2id else word_vocab.token2id["<UNK>"],
-                          sin))
-        true_length = sin.index("<EOS>")
-        sout_ix = list(map(lambda i: tag2index[i] if i in tag2index else tag2index["<UNK>"],
-                           sout))
-        intent_ix = intent2index[intent] if intent in intent2index else intent2index["<UNK>"]
-
-        train_index_padded_data.append([sin_ix, true_length, sout_ix, intent_ix])
-
-    for sin, sout, intent in test_data_padded:
-        # get the value of word2index[i] 
-        sin_ix = list(map(lambda i: word_vocab.token2id[i] if i in word_vocab.token2id else word_vocab.token2id["<UNK>"],
-                          sin))
-        true_length = sin.index("<EOS>")
-        sout_ix = list(map(lambda i: tag2index[i] if i in tag2index else tag2index["<UNK>"],
-                           sout))
-        intent_ix = intent2index[intent] if intent in intent2index else intent2index["<UNK>"]
-        
-        test_index_padded_data.append([sin_ix, true_length, sout_ix, intent_ix])
-
-    return index2word, index2tag, index2intent,train_index_padded_data, test_index_padded_data, slot_size, intent_size
-
-
-
 
 
 def get_index_data_from_word2vec(train_data_padded, test_data_padded):
@@ -275,21 +163,6 @@ def get_index_data_from_word2vec(train_data_padded, test_data_padded):
         test_index_padded_data.append([sin_ix, true_length, sout_ix, intent_ix])
 
     return index2word, index2tag, index2intent,train_index_padded_data, test_index_padded_data, slot_size, intent_size
-
-
-
-
-
-    # train_seq_in, train_seq_out, train_intent = list(zip(*train_data_padded))
-    # test_seq_in, test_seq_out, test_intent = list(zip(*test_data_padded))
-
-    # train_seq_in = [[word_vocab.token2id.get(w, word_vocab.token2id[word_vocab.unk_token]) for w in x] for x in train_seq_in]
-    # train_seq_out= [[word_vocab.token2id.get(w, word_vocab.token2id[word_vocab.unk_token]) for w in x] for x in train_seq_out]
-    
-    # train_index_data = list(zip(train_seq_in, train_seq_out))
-    return index2word, index2tag, index2intent,train_index_padded_data, test_index_padded_data, slot_size, intent_size
-
-
 
 
 
