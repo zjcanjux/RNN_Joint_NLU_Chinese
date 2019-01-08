@@ -8,7 +8,7 @@ Decoder使用`tf.contrib.seq2seq.CustomHelper`和`tf.contrib.seq2seq.dynamic_dec
 
 ## Usage
 
-Put Chinese Word embeddings into Word2Vec folder
+Put Chinese Word embeddings file into Word2Vec folder
 
 ```
 python main.py
