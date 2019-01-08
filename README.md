@@ -8,7 +8,7 @@ Decoder使用`tf.contrib.seq2seq.CustomHelper`和`tf.contrib.seq2seq.dynamic_dec
 
 ## Usage
 
-Download w2v_word_py3_baidu_0810 and put them into Word2Vec folder, or can using other Chinese Word embeddings.
+Put Chinese Word embeddings into Word2Vec folder
 
 ```
 python main.py
