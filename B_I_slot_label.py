@@ -38,7 +38,7 @@ class Slot_label(object):
             slot_name_cut_total.append(slot_name)
             slot_tag_total.append(slot_tag)
             intent_total.append(intent)
-            e = [[m,n,o,p] for m,n,o,p in zip(seq_cut_total, slot_name_cut_total, slot_tag_total, intent_total)]
+        e = [[m,n,o,p] for m,n,o,p in zip(seq_cut_total, slot_name_cut_total, slot_tag_total, intent_total)]
 
         new_slot_tag_total= []
         for i in e:
