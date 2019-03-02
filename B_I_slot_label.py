@@ -11,7 +11,7 @@ class Slot_label(object):
     def __init__(self, input_file_path, output_file_path):
         self.input_file_path = input_file_path
         self.output_file_path = output_file_path
-
+        self.B_I_label()
     def B_I_label(self):
         f = open(self.input_file_path, 'r').readlines()
         seq_cut_total = []
@@ -127,4 +127,3 @@ class Slot_label(object):
 
 
 aa = Slot_label(input_file_path, output_file_path)
-aa.B_I_label()
