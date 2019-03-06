@@ -4,7 +4,7 @@
 
 Encoder使用`tf.nn.bidirectional_dynamic_rnn`实现
 
-Decoder使用`tf.contrib.seq2seq.CustomHelper`和`tf.contrib.seq2seq.dynamic_decode`实现
+Decoder使用`tf.contrib.seq2seq.dynamic_decode`实现
 
 ## Usage
 
