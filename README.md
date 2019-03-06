@@ -8,6 +8,7 @@ Decoder使用`tf.contrib.seq2seq.dynamic_decode`实现
 
 ## Usage
 The file of seq_slot_intent.text is the example for data which is suitable for the B_I_slot_label.py.
+
 Put Chinese Word embeddings file into Word2Vec folder
 
 ```
