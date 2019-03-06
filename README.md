@@ -11,7 +11,7 @@ Decoder使用`tf.contrib.seq2seq.dynamic_decode`实现
 Put Chinese Word embeddings file into Word2Vec folder
 
 ```
-python main.py
+python3 tain_and_test.py
 ```
 
 输出：
