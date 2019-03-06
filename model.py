@@ -1,9 +1,8 @@
 # coding=utf-8
 # @author: cer
 import tensorflow as tf
-from tensorflow.contrib import layers
 import numpy as np
-from tensorflow.contrib.rnn import LSTMCell, LSTMStateTuple,DropoutWrapper,MultiRNNCell
+from tensorflow.contrib.rnn import LSTMCell,DropoutWrapper,MultiRNNCell
 import sys
 
 
@@ -66,10 +65,7 @@ class Model:
         encoder_final_state_h = tf.concat(
             (encoder_fw_final_state.h, encoder_bw_final_state.h), 1)
 
-        self.encoder_final_state = LSTMStateTuple(
-            c=encoder_final_state_c,
-            h=encoder_final_state_h
-        )
+
         print("encoder_outputs: ", encoder_outputs)
         print("encoder_outputs[0]: ", encoder_outputs[0])
         print("encoder_final_state_c: ", encoder_final_state_c)
