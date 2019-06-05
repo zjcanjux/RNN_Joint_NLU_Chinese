@@ -41,6 +41,9 @@ B_I_slot_label.py       process the raw data by BIO label method 实现中文语
 
 data.py          		    convert BIO label data into index data
 
+## Add pytorch implementation for Joint model
+see pytorch joint folder
+
 Reference:
 
 - [Tensorflow动态seq2seq使用总结（r1.3）](https://github.com/applenob/RNN-for-Joint-NLU/blob/master/tensorflow_dynamic_seq2seq.md)
