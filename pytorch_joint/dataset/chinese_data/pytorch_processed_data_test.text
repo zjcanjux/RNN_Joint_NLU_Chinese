@@ -1,0 +1,435 @@
+<BOS> 群组 宽带 业务  <EOS>	<BOS> B-宽带类型 I-宽带类型 O  <EOS> 宽带
+<BOS> 办理 宽带 密码  <EOS>	<BOS> O O B-附属标签  <EOS> 宽带
+<BOS> 宽带 密码 办  <EOS>	<BOS> O B-附属标签 O  <EOS> 宽带
+<BOS> 怎么办 宽带 密码  <EOS>	<BOS> O O B-附属标签  <EOS> 宽带
+<BOS> 能 不能 办 宽带 密码  <EOS>	<BOS> O O O O B-附属标签  <EOS> 宽带
+<BOS> 我 的 宽带 密码 怎么办  <EOS>	<BOS> O O O B-附属标签 O  <EOS> 宽带
+<BOS> 我家 宽带 密码 怎么办  <EOS>	<BOS> O O B-附属标签 O  <EOS> 宽带
+<BOS> 办 一下 宽带 密码  <EOS>	<BOS> O O O B-附属标签  <EOS> 宽带
+<BOS> 办理 我 的 宽带 密码  <EOS>	<BOS> O O O O B-附属标签  <EOS> 宽带
+<BOS> 办理 下 我家 的 宽带 密码  <EOS>	<BOS> O O O O O B-附属标签  <EOS> 宽带
+<BOS> 办下 我 的 宽带 密码  <EOS>	<BOS> O O O O B-附属标签  <EOS> 宽带
+<BOS> 能 不能 办下 我 的 宽带 密码  <EOS>	<BOS> O O O O O O B-附属标签  <EOS> 宽带
+<BOS> 能 不能 办下 我家 的 宽带 密码  <EOS>	<BOS> O O O O O O B-附属标签  <EOS> 宽带
+<BOS> 可以 帮 我 办 宽带 密码 么  <EOS>	<BOS> O O O O O B-附属标签 O  <EOS> 宽带
+<BOS> 可以 办理 宽带 密码 么  <EOS>	<BOS> O O O B-附属标签 O  <EOS> 宽带
+<BOS> 可以 办理 下 我家 的 宽带 的 秘密 吗  <EOS>	<BOS> O O O O O O O B-附属标签 O  <EOS> 宽带
+<BOS> 我 的 的 宽带 密码 帮 我 办理 一下  <EOS>	<BOS> O O O O B-附属标签 O O O O  <EOS> 宽带
+<BOS> 办理 宽带 的 密码 行么  <EOS>	<BOS> O O O B-附属标签 O  <EOS> 宽带
+<BOS> 帮 我 办理 宽带 的 密码  <EOS>	<BOS> O O O O O B-附属标签  <EOS> 宽带
+<BOS> 是 手机 密码  <EOS>	<BOS> O O B-附属标签  <EOS> 手机
+<BOS> 宽带 的 密码  <EOS>	<BOS> O O B-附属标签  <EOS> 宽带
+<BOS> 宽带 密码 服务  <EOS>	<BOS> O B-附属标签 O  <EOS> 宽带
+<BOS> 移动 宽带 的 密码  <EOS>	<BOS> O O O B-附属标签  <EOS> 宽带
+<BOS> 手机 服务 密码  <EOS>	<BOS> O O B-附属标签  <EOS> 手机
+<BOS> 宽带 密码  <EOS>	<BOS> O B-附属标签  <EOS> 宽带
+<BOS> 宽带 登陆密码  <EOS>	<BOS> O O  <EOS> 宽带
+<BOS> 宽带 上网 的 密码  <EOS>	<BOS> O O O B-附属标签  <EOS> 宽带
+<BOS> 我 的 宽带 密码  <EOS>	<BOS> O O O B-附属标签  <EOS> 宽带
+<BOS> 校园 宽带 密码  <EOS>	<BOS> O O B-附属标签  <EOS> 宽带
+<BOS> 密钥 改  <EOS>	<BOS> B-附属标签 O  <EOS> 修改
+<BOS> 密钥 不 记得 了  <EOS>	<BOS> B-附属标签 O O O  <EOS> 重置
+<BOS> 密钥 忘 了  <EOS>	<BOS> B-附属标签 O O  <EOS> 重置
+<BOS> 密钥 重置  <EOS>	<BOS> B-附属标签 O  <EOS> 重置
+<BOS> 密钥 忘记 了  <EOS>	<BOS> B-附属标签 O O  <EOS> 重置
+<BOS> 改个 新密码  <EOS>	<BOS> O B-附属标签  <EOS> 修改
+<BOS> 查 一下 我 的 密码  <EOS>	<BOS> O O O O B-附属标签  <EOS> 查询
+<BOS> 我想查 下 密码  <EOS>	<BOS> O O B-附属标签  <EOS> 查询
+<BOS> 帮 我 查下 密码  <EOS>	<BOS> O O O B-附属标签  <EOS> 查询
+<BOS> 查询 密码  <EOS>	<BOS> O B-附属标签  <EOS> 查询
+<BOS> 忘 了 密码  <EOS>	<BOS> O O B-附属标签  <EOS> 重置
+<BOS> 查询 密码 忘记 了 怎么办  <EOS>	<BOS> O B-附属标签 O O O  <EOS> 重置
+<BOS> 密码 忘 了 怎么 整  <EOS>	<BOS> B-附属标签 O O O O  <EOS> 重置
+<BOS> 忘记 初始密码 怎么办  <EOS>	<BOS> O O O  <EOS> 重置
+<BOS> 七十 元 流量 包  <EOS>	<BOS> B-金额 O O O  <EOS> 流量
+<BOS> 七十 元 国内 流量  <EOS>	<BOS> B-金额 O O O  <EOS> 流量
+<BOS> 一百元 流量 包  <EOS>	<BOS> B-金额 O O  <EOS> 流量
+<BOS> 一百元 的 流量 套餐  <EOS>	<BOS> B-金额 O O O  <EOS> 流量
+<BOS> 一百元 的 流量 套餐 资费  <EOS>	<BOS> B-金额 O O O O  <EOS> 流量
+<BOS> 一百元 国内 流量 包  <EOS>	<BOS> B-金额 O O O  <EOS> 流量
+<BOS> 一百元 全国 流量  <EOS>	<BOS> B-金额 O O  <EOS> 流量
+<BOS> 一百五十元 流量 包  <EOS>	<BOS> B-金额 O O  <EOS> 流量
+<BOS> 二百元 左右 的 流量 套餐  <EOS>	<BOS> B-金额 O O O O  <EOS> 流量
+<BOS> 二百元 国内 流量  <EOS>	<BOS> B-金额 O O  <EOS> 流量
+<BOS> 二百元 流量 套餐  <EOS>	<BOS> B-金额 O O  <EOS> 流量
+<BOS> 二百元 的 流量 包  <EOS>	<BOS> B-金额 O O O  <EOS> 流量
+<BOS> 二百元 流量 包  <EOS>	<BOS> B-金额 O O  <EOS> 流量
+<BOS> 二十元 流量 包  <EOS>	<BOS> B-金额 O O  <EOS> 流量
+<BOS> 二十元 的 流量 包  <EOS>	<BOS> B-金额 O O O  <EOS> 流量
+<BOS> 十兆 独享 宽带 多少 钱  <EOS>	<BOS> O O B-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 二十 兆 独享 宽带 多少 钱  <EOS>	<BOS> O O O B-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 一 百兆 独享 宽带 多少 钱  <EOS>	<BOS> O O O B-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 五十 兆 独享 宽带 多少 钱  <EOS>	<BOS> O O O B-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 一百五十 兆 独享 宽带 多少 钱  <EOS>	<BOS> O O O B-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 二百 兆 独享 宽带 多少 钱  <EOS>	<BOS> O O O B-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 敢不敢 把 单品 宽带 给 我 介绍 一下  <EOS>	<BOS> O O B-宽带类型 I-宽带类型 O O O O  <EOS> 咨询宽带
+<BOS> 我 想 知道 4g 融合 宽带 是 什么  <EOS>	<BOS> O O O O B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 的 价格  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 帮 我 介绍 下 4g 融合 宽带 的 资费  <EOS>	<BOS> O O O O O B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 有 多少 种  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O O  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 是 怎么 收费 的  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O O O  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 是 什么 你 给 我 讲 一下  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O O O O O O  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 可以 给 我 介绍 下 吗  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O O O O O  <EOS> 咨询宽带
+<BOS> 能 不能 给 我 介绍 下 4g 融合 宽带  <EOS>	<BOS> O O O O O O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 是 什么 宽带  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O I-宽带类型  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 是 个 什么 东西  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O O O  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 快 么  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 多少 钱  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 怎么 收钱 的  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O O  <EOS> 咨询宽带
+<BOS> 什么 是 4g 融合 宽带  <EOS>	<BOS> O O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 介绍 下 4g 融合 宽带  <EOS>	<BOS> O O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 介绍 下 你们 移动 的 4g 融合 宽带  <EOS>	<BOS> O O O O O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 你们 移动 的 4g 融合 宽带 是 个 什么 玩意  <EOS>	<BOS> O O O O B-宽带类型 I-宽带类型 O O O O  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 给 我 介绍 下  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O O O  <EOS> 咨询宽带
+<BOS> 敢不敢 把 4g 融合 宽带 给 我 介绍 一下  <EOS>	<BOS> O O O B-宽带类型 I-宽带类型 O O O O  <EOS> 咨询宽带
+<BOS> 帮 我 介绍 下 4g 融合 宽带  <EOS>	<BOS> O O O O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 敢不敢 把 群组 宽带 给 我 介绍 一下  <EOS>	<BOS> O O B-宽带类型 I-宽带类型 O O O O  <EOS> 咨询宽带
+<BOS> 有 飞享 套餐 绑定 的 宽带 吗  <EOS>	<BOS> O O O O O B-宽带类型 O  <EOS> 咨询宽带
+<BOS> 有 一家人 一起 用 的 免费 宽带 吗  <EOS>	<BOS> O O O O O O B-宽带类型 O  <EOS> 咨询宽带
+<BOS> 有 家庭 组合 办 宽带 业务 吗  <EOS>	<BOS> O O O O B-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 单独 安装 宽带 多少 钱  <EOS>	<BOS> O O B-宽带类型 O O  <EOS> 预约宽带
+<BOS> 只装 宽带 有 什么样 的  <EOS>	<BOS> O B-宽带类型 O O O  <EOS> 预约宽带
+<BOS> 二人 消费 一百 能 用 宽带 吗  <EOS>	<BOS> O O O O O B-宽带类型 O  <EOS> 咨询宽带
+<BOS> 二十 兆 单品 宽带 如何 办理  <EOS>	<BOS> O O B-宽带类型 I-宽带类型 O O  <EOS> 预约宽带
+<BOS> 我 想 办理 4g 融合 宽带  <EOS>	<BOS> O O O O B-宽带类型 I-宽带类型  <EOS> 预约宽带
+<BOS> 多 人群 组 宽带 如何 办理  <EOS>	<BOS> O O O B-宽带类型 O O  <EOS> 预约宽带
+<BOS> 融合 宽带 介绍  <EOS>	<BOS> B-宽带类型 I-宽带类型 O  <EOS> 咨询宽带
+<BOS> 群组 宽带 资费 介绍  <EOS>	<BOS> B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 单品 宽带 是 多少 钱 的  <EOS>	<BOS> B-宽带类型 I-宽带类型 O O O O  <EOS> 咨询宽带
+<BOS> 家庭 宽带 资费  <EOS>	<BOS> O B-宽带类型 O  <EOS> 咨询宽带
+<BOS> 单品 宽带 介绍  <EOS>	<BOS> B-宽带类型 I-宽带类型 O  <EOS> 咨询宽带
+<BOS> 给 我 介绍 一下 单品 宽带  <EOS>	<BOS> O O O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 我 想 了解 一下 单品 宽带  <EOS>	<BOS> O O O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 单品 宽带 怎么 收费  <EOS>	<BOS> B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 怎么 收费  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 给 我 介绍 一下 融合 宽带  <EOS>	<BOS> O O O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 我 想 了解 一下 4g 融合 宽带  <EOS>	<BOS> O O O O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 介绍  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O  <EOS> 咨询宽带
+<BOS> 4g 融合 宽带 是 什么  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 群组 宽带 资费  <EOS>	<BOS> B-宽带类型 I-宽带类型 O  <EOS> 咨询宽带
+<BOS> 什么 是 群组 宽带  <EOS>	<BOS> O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 有 单品 宽带 资费 吗  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 单品 宽带 的 资费 介绍  <EOS>	<BOS> B-宽带类型 I-宽带类型 O O O  <EOS> 咨询宽带
+<BOS> 单品 宽带 资费 是 什么  <EOS>	<BOS> B-宽带类型 I-宽带类型 O O O  <EOS> 咨询宽带
+<BOS> 4G 融合 宽带 资费  <EOS>	<BOS> B-宽带类型 I-宽带类型 I-宽带类型 O  <EOS> 咨询宽带
+<BOS> 4G 融合 宽带 资费 是 什么  <EOS>	<BOS> B-宽带类型 I-宽带类型 I-宽带类型 O O O  <EOS> 咨询宽带
+<BOS> 我 想 了解 4G 融合 宽带  <EOS>	<BOS> O O O B-宽带类型 I-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 移动 融合 宽带 的 资费  <EOS>	<BOS> O B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 融合 宽带 的 资费 是 什么样 的  <EOS>	<BOS> B-宽带类型 I-宽带类型 O O O O O  <EOS> 咨询宽带
+<BOS> 群组 消费 宽带 资费 介绍  <EOS>	<BOS> B-宽带类型 O I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 群组 宽带 的 资费 介绍  <EOS>	<BOS> B-宽带类型 I-宽带类型 O O O  <EOS> 咨询宽带
+<BOS> 我 想 了解 一下 群组 宽带  <EOS>	<BOS> O O O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 说 一下 群组 宽带 资费  <EOS>	<BOS> O O B-宽带类型 I-宽带类型 O  <EOS> 咨询宽带
+<BOS> 你们 的 群组 宽带 资费 是 什么 呀  <EOS>	<BOS> O O B-宽带类型 I-宽带类型 O O O O  <EOS> 咨询宽带
+<BOS> 单品 宽带 多少 钱  <EOS>	<BOS> B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 单品 宽带 资费 介绍  <EOS>	<BOS> B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 群组 宽带 如何 收费  <EOS>	<BOS> B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 群组 宽带 怎么 收费  <EOS>	<BOS> B-宽带类型 I-宽带类型 O O  <EOS> 咨询宽带
+<BOS> 给 我 说 一下 融合 宽带  <EOS>	<BOS> O O O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 给 我 说 一下 单品 宽带  <EOS>	<BOS> O O O O B-宽带类型 I-宽带类型  <EOS> 咨询宽带
+<BOS> 如何 开通 4g 基础 流量  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 怎样 开通 4g 基础 流量 包  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 办理 4g 基础 流量 套餐  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 O  <EOS> 开通流量
+<BOS> 办理 4g 基础 流量 包  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 4g 基础 流量 包 办理  <EOS>	<BOS> O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 开通流量
+<BOS> 如何 办理 4g 基础 流量 套餐 业务  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 开通流量
+<BOS> 基础 流量 套餐 开通  <EOS>	<BOS> B-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 开通流量
+<BOS> 如何 开通 十五 g 的 基础 流量 费用 多少  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 开通流量
+<BOS> 如何 开通 十 g 的 基础 流量 费用 多少  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 开通流量
+<BOS> 取消 基础 流量 包  <EOS>	<BOS> O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 基础 流量 包 取消 了  <EOS>	<BOS> B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 把 我 基础 流量 包 取消  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 请 取消 我 的 基础 流量 包  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 请 将 我 的 基础 流量 包 取消  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 我要 取消 基础 流量 包  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 我要 将 我 的 基础 流量 包 取消 掉  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 你 能 不能取消 掉 我 的 基础 流量 包  <EOS>	<BOS> O O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 你 可不可以 取消 我 的 基础 流量 包  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 请 你 帮 我 取消 基础 流量 包  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 请 帮 我 将 基础 流量 包 取消  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 我 不要 基础 流量 包了  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 我 需要 你 帮 我 取消 基础 流量 包  <EOS>	<BOS> O O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 我 需要 将 基础 流量 包 取消  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 将 我 办理 的 基础 流量 包 取消  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 请 把 我 办理 的 基础 流量 包 取消  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 我 不 需要 基础 流量 包了  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 不 需要 基础 流量 包了  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 把 基础 流量 包 取消  <EOS>	<BOS> O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 把 我 的 基础 流量 包 给 取消 了  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O O  <EOS> 取消流量
+<BOS> 我要 取消 基础 流量  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 给 我 取消 基础 流量 包  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 帮 我 取消 下 基础 流量 包  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 能 给 我 基础 流量 包 取消 了 吗  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O O  <EOS> 取消流量
+<BOS> 我 想 取消 基础 流量 包  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 我订 的 基础 流量 包 麻烦 帮 我 取消 了  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O O O O  <EOS> 取消流量
+<BOS> 基础 流量 包 取消  <EOS>	<BOS> B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 流量 基础 包 取消  <EOS>	<BOS> B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 我订 的 基础 流量 包 取消 了 吧  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O O  <EOS> 取消流量
+<BOS> 我 的 基础 流量 包不 想要 了  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 O O O  <EOS> 取消流量
+<BOS> 关闭 流量 基础 套餐  <EOS>	<BOS> O B-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 开通 基础 流量 包  <EOS>	<BOS> O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 开通 流量 加油  <EOS>	<BOS> O O B-流量业务对象类型  <EOS> 开通流量
+<BOS> 你好 我 想 开通 流量 加油  <EOS>	<BOS> O O O O O B-流量业务对象类型  <EOS> 开通流量
+<BOS> 帮 我 开通 流量 加油  <EOS>	<BOS> O O O O B-流量业务对象类型  <EOS> 开通流量
+<BOS> 请 帮 我 开通 流量 加油  <EOS>	<BOS> O O O O O B-流量业务对象类型  <EOS> 开通流量
+<BOS> 你好 请 帮 我 开通 流量 加油  <EOS>	<BOS> O O O O O O B-流量业务对象类型  <EOS> 开通流量
+<BOS> 我 想 开通 流量 加油  <EOS>	<BOS> O O O O B-流量业务对象类型  <EOS> 开通流量
+<BOS> 我要 办 国内 加油 包  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 怎么 买 流量 加油 包  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 我想 买个 加油 包  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 给 我 开 加油 包  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 怎么 开通 加油 包  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 办理 流量 加油 包  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 开通 加油 包  <EOS>	<BOS> O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 想 办个 全国 加油 包  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 帮 我 取消 夜间 流量 包  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 夜间 流量 包 取消 业务  <EOS>	<BOS> B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 请问 怎么 取消 夜间 流量 包  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 我 可以 取消 夜间 流量 包 吗  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 把 晚上 用 的 流量 取消  <EOS>	<BOS> O O O O B-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 我要 取消 晚间 流量 包  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 夜间 流量 我 不用 了  <EOS>	<BOS> B-流量业务对象类型 I-流量业务对象类型 O O O  <EOS> 取消流量
+<BOS> 取消 闲时 流量  <EOS>	<BOS> O O B-流量业务对象类型  <EOS> 取消流量
+<BOS> 帮 我 取消 夜间 流量  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 关闭 夜间 流量  <EOS>	<BOS> O B-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 取消 夜间 流量  <EOS>	<BOS> O B-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 我要 取消 夜间 流量  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 我要 取消 夜间 用 流量 包  <EOS>	<BOS> O O B-流量业务对象类型 O I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 有 晚上 上网 的 流量 吗  <EOS>	<BOS> O O O O B-流量业务对象类型 O  <EOS> 开通流量
+<BOS> 开通 晚上 用 的 流量  <EOS>	<BOS> O O O O B-流量业务对象类型  <EOS> 开通流量
+<BOS> 夜间 的 流量 包有 什么样 的  <EOS>	<BOS> B-流量业务对象类型 O I-流量业务对象类型 O O O  <EOS> 开通流量
+<BOS> 有 哪些 夜间 流量 套餐  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 O  <EOS> 开通流量
+<BOS> 我 想开 一个 晚上 用 的 流量 包  <EOS>	<BOS> O O O O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 我 想开 一个 周末 用 的 流量 包  <EOS>	<BOS> O O O B-流量业务对象类型 O O I-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 开通 周末 流量 包  <EOS>	<BOS> O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 周末 流量 办理  <EOS>	<BOS> B-流量业务对象类型 I-流量业务对象类型 O  <EOS> 开通流量
+<BOS> 刚才 包 二天 包 五元 五百 兆 为什么 没有 到 账  <EOS>	<BOS> O B-流量业务对象类型 O I-流量业务对象类型 O O O O O O O  <EOS> 开通流量
+<BOS> 流量 两天 包 五元 五百 兆 是 全国 可用 吗  <EOS>	<BOS> B-流量业务对象类型 O I-流量业务对象类型 O O O O O O O  <EOS> 开通流量
+<BOS> 三十元 国内 流量 包一 g  <EOS>	<BOS> B-金额 O O O O  <EOS> 开通流量
+<BOS> 我 可以 办理 三十元 一 g 流量 吗  <EOS>	<BOS> O O O B-金额 O O O O  <EOS> 开通流量
+<BOS> 三十元 能包 多少 流量  <EOS>	<BOS> B-金额 O O O  <EOS> 开通流量
+<BOS> 三十元 流量 套餐 包有 哪些  <EOS>	<BOS> B-金额 O O O O  <EOS> 开通流量
+<BOS> 三十元 包 一个 g  <EOS>	<BOS> B-金额 O O O  <EOS> 开通流量
+<BOS> 三十元 包 国内 一个 g  <EOS>	<BOS> B-金额 O O O O  <EOS> 开通流量
+<BOS> 国内 流量 三十元 一 g 怎么办  <EOS>	<BOS> O O B-金额 O O O  <EOS> 开通流量
+<BOS> 三十元 包一 g 国内 流量 包  <EOS>	<BOS> B-金额 O O O O O  <EOS> 开通流量
+<BOS> 三十元 包一 g  <EOS>	<BOS> B-金额 O O  <EOS> 开通流量
+<BOS> 帮 我 办 一个 三十元 一 g 的 国内 流量  <EOS>	<BOS> O O O O B-金额 O O O O O  <EOS> 开通流量
+<BOS> 三十元 包一 g 的 流量  <EOS>	<BOS> B-金额 O O O O  <EOS> 开通流量
+<BOS> 4g 飞享 套餐 国内 版 五十元 国内 流量 可选包 介绍  <EOS>	<BOS> O O O O O B-金额 O O O O  <EOS> 开通流量
+<BOS> 五十元 包二 g 流量 怎么办  <EOS>	<BOS> B-金额 O O O O  <EOS> 开通流量
+<BOS> 五十元 包二 g 国内 流量 电话 咋 收费  <EOS>	<BOS> B-金额 O O O O O O O  <EOS> 开通流量
+<BOS> 五十元 4g 流量 包 介绍  <EOS>	<BOS> B-金额 O O O O  <EOS> 开通流量
+<BOS> 我 的 流量 包能 换成 五十元 这个 嘛  <EOS>	<BOS> O O O O O B-金额 O O  <EOS> 开通流量
+<BOS> 五十元 二 g 国内 现在 可以 开通 吗  <EOS>	<BOS> B-金额 O O O O O O O  <EOS> 开通流量
+<BOS> 开通 五十元 国内 流量 包  <EOS>	<BOS> O B-金额 O O O  <EOS> 开通流量
+<BOS> 五十元 包二 g 国内 多长时间  <EOS>	<BOS> B-金额 O O O O  <EOS> 开通流量
+<BOS> 开通 五十元 二 g 流量 包  <EOS>	<BOS> O B-金额 O O O O  <EOS> 开通流量
+<BOS> 五十元 包 国内 二 g 流量  <EOS>	<BOS> B-金额 O O O O O  <EOS> 开通流量
+<BOS> 五十元 可以 买 多少 流量  <EOS>	<BOS> B-金额 O O O O  <EOS> 开通流量
+<BOS> 五十元 二 g 流量 的 怎么 包 的  <EOS>	<BOS> B-金额 O O O O O O O  <EOS> 开通流量
+<BOS> 我 现在 包 的 是 五十元 一 g 流量 可以 改成 二 g 吗  <EOS>	<BOS> O O O O O B-金额 O O O O O O O O  <EOS> 开通流量
+<BOS> 五十元 包二 g  <EOS>	<BOS> B-金额 O O  <EOS> 开通流量
+<BOS> 五十元 包 国内 二 g 数据 流量  <EOS>	<BOS> B-金额 O O O O O O  <EOS> 开通流量
+<BOS> 五十元 包二 g 国内 流量  <EOS>	<BOS> B-金额 O O O O  <EOS> 开通流量
+<BOS> 五十元 二 g 流量 是 怎么 订购 的  <EOS>	<BOS> B-金额 O O O O O O O  <EOS> 开通流量
+<BOS> 五十元 二 g 国内 流量 怎么办 的  <EOS>	<BOS> B-金额 O O O O O O  <EOS> 开通流量
+<BOS> 办理 五十元 二 g  <EOS>	<BOS> O B-金额 O O  <EOS> 开通流量
+<BOS> 五十元 二 g 国内 流量 是 怎么 订购 的  <EOS>	<BOS> B-金额 O O O O O O O O  <EOS> 开通流量
+<BOS> 五十元 包二 g 全国 流量  <EOS>	<BOS> B-金额 O O O O  <EOS> 开通流量
+<BOS> 我 可以 包 五十元 二 g 的 流量 吗  <EOS>	<BOS> O O O B-金额 O O O O O  <EOS> 开通流量
+<BOS> 五十元 包二 g 国内 流量 套餐  <EOS>	<BOS> B-金额 O O O O O  <EOS> 开通流量
+<BOS> 五十元 包 国内 二 g  <EOS>	<BOS> B-金额 O O O O  <EOS> 开通流量
+<BOS> 开通 五十元 二 g 流量 服务  <EOS>	<BOS> O B-金额 O O O O  <EOS> 开通流量
+<BOS> 你好 五十元 二 g 国内 流量 怎么 开通  <EOS>	<BOS> O B-金额 O O O O O O  <EOS> 开通流量
+<BOS> 开个 五十元 每月 二 g 流量  <EOS>	<BOS> O B-金额 O O O O  <EOS> 开通流量
+<BOS> 你 能 直接 开 五十元 包二 g 全国 流量 吗  <EOS>	<BOS> O O O O B-金额 O O O O O  <EOS> 开通流量
+<BOS> 我能 开通 五十元 二个 g 的 国内 流量 吗  <EOS>	<BOS> O O B-金额 O O O O O O  <EOS> 开通流量
+<BOS> 七十 元 国内 流量 套餐 开通  <EOS>	<BOS> B-金额 O O O O O  <EOS> 开通流量
+<BOS> 开通 七十 元 流量 包  <EOS>	<BOS> O B-金额 O O O  <EOS> 开通流量
+<BOS> 我 这 月 使用 多少 话费 了  <EOS>	<BOS> O O B-月份 O O O O  <EOS> 查询账单
+<BOS> 这个 月 都 扣 了 什么 费用  <EOS>	<BOS> O B-月份 O O O O O  <EOS> 查询账单
+<BOS> 我 这个 月 都 消费 什么 了  <EOS>	<BOS> O O B-月份 O O O O  <EOS> 查询账单
+<BOS> 我 这个 月 都 扣 啥 费  <EOS>	<BOS> O O B-月份 O O O O  <EOS> 查询账单
+<BOS> 我 这个 月 都 有 哪些 消费  <EOS>	<BOS> O O B-月份 O O O O  <EOS> 查询账单
+<BOS> 给 我 看看 我 这个 月 账单  <EOS>	<BOS> O O O O O B-月份 O  <EOS> 查询账单
+<BOS> 我 这个 月 都 有 什么 业务  <EOS>	<BOS> O O B-月份 O O O O  <EOS> 查询本机业务
+<BOS> 看 我 这个 月 花 多少 钱  <EOS>	<BOS> O O O B-月份 O O O  <EOS> 查询账单
+<BOS> 我 这 月话费 怎么 不 对  <EOS>	<BOS> O O B-月份 O O O  <EOS> 查询账单
+<BOS> 我 这个 月 都 扣 什么 钱  <EOS>	<BOS> O O B-月份 O O O O  <EOS> 查询账单
+<BOS> 我 的 这个 月 怎么 消费 的  <EOS>	<BOS> O O O B-月份 O O O  <EOS> 查询账单
+<BOS> 我 想 看看 本月 消费 情况  <EOS>	<BOS> O O O B-月份 O O  <EOS> 查询账单
+<BOS> 查查 我 这个 月 扣 多少 钱  <EOS>	<BOS> O O O B-月份 O O O  <EOS> 查询账单
+<BOS> 我 这个 月 钱 都 花 哪 了  <EOS>	<BOS> O O B-月份 O O O O O  <EOS> 查询账单
+<BOS> 看 我 本月 都 消费 什么 了  <EOS>	<BOS> O O B-月份 O O O O  <EOS> 查询账单
+<BOS> 这个 月 都 消费 了 什么  <EOS>	<BOS> O B-月份 O O O O  <EOS> 查询账单
+<BOS> 我 这个 月 扣 什么 费用 了  <EOS>	<BOS> O O B-月份 O O O O  <EOS> 查询账单
+<BOS> 我 这 月 都 扣 什么 费用 了  <EOS>	<BOS> O O B-月份 O O O O O  <EOS> 查询账单
+<BOS> 我 这个 月 都 什么 消费  <EOS>	<BOS> O O B-月份 O O O  <EOS> 查询账单
+<BOS> 本月 我 都 消费 了 哪些 钱  <EOS>	<BOS> B-月份 O O O O O O  <EOS> 查询账单
+<BOS> 这个 月 一共 扣 了 多少 钱  <EOS>	<BOS> O B-月份 O O O O O  <EOS> 查询账单
+<BOS> 这个 月初 扣 了 什么 费用  <EOS>	<BOS> O O O O O O  <EOS> 查询月初扣费
+<BOS> 查 一下 本月 账单  <EOS>	<BOS> O O B-月份 O  <EOS> 查询账单
+<BOS> 我 这个 月话费 怎么 扣 的  <EOS>	<BOS> O O B-月份 O O O  <EOS> 查询账单
+<BOS> 我 这个 月 刚刚开始 怎么 扣 的 费  <EOS>	<BOS> O O B-月份 O O O O O  <EOS> 查询月初扣费
+<BOS> 我 这个 月 还 能 再 发 多少 短信  <EOS>	<BOS> O O B-月份 O O O O O O  <EOS> 查询短信
+<BOS> 我 这个 月 还 能 打 多少 分钟 电话 啊  <EOS>	<BOS> O O B-月份 O O O O O O O  <EOS> 查询语音
+<BOS> 我 想 修改 宽带 密码  <EOS>	<BOS> O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 修改 宽带 登录 密码  <EOS>	<BOS> O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 修改 宽带 的 密码  <EOS>	<BOS> O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 修改 家里 宽带 密码  <EOS>	<BOS> O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 修改 个 宽带 密码  <EOS>	<BOS> O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 问 一 宽带 密码 怎么 修改  <EOS>	<BOS> O O O O O B-附属标签 O O  <EOS> 修改宽带
+<BOS> 我 想 换 一下 我 的 宽带 密码  <EOS>	<BOS> O O O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 换 一下 宽带 密码  <EOS>	<BOS> O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我想 换个 宽带 密码  <EOS>	<BOS> O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 更改 一下 宽带 密码  <EOS>	<BOS> O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 更改 一下 宽带 的 密码  <EOS>	<BOS> O O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 更改 宽带 密码  <EOS>	<BOS> O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 改 一下 密码 宽带 的  <EOS>	<BOS> O O O O B-附属标签 O O  <EOS> 修改宽带
+<BOS> 我 想 改 一下 宽带 密码  <EOS>	<BOS> O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 改 一下 宽带 的 密码  <EOS>	<BOS> O O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我想 改下 宽带 密码  <EOS>	<BOS> O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我想 改下 宽带 的 密码  <EOS>	<BOS> O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 改 我 的 宽带 密码  <EOS>	<BOS> O O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 改 宽带 密码  <EOS>	<BOS> O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 想 改 宽带 的 密码  <EOS>	<BOS> O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我想 改个 宽带 密码  <EOS>	<BOS> O O O B-附属标签  <EOS> 修改宽带
+<BOS> 把 我家 的 宽带 密码 修改 一下  <EOS>	<BOS> O O O O B-附属标签 O O  <EOS> 修改宽带
+<BOS> 我 想 把 宽带 密码 改 一下  <EOS>	<BOS> O O O O B-附属标签 O O  <EOS> 修改宽带
+<BOS> 我 现在 修改 宽带 密码  <EOS>	<BOS> O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 修改 一下 我 家里 的 宽带 密码  <EOS>	<BOS> O O O O O O B-附属标签  <EOS> 修改宽带
+<BOS> 我 那个 宽带 密码 怎么 修改  <EOS>	<BOS> O O O B-附属标签 O O  <EOS> 修改宽带
+<BOS> 我 那个 宽带 密码 能改 一下  <EOS>	<BOS> O O O B-附属标签 O O  <EOS> 修改宽带
+<BOS> 我 宽带 密码 怎么 修改  <EOS>	<BOS> O O B-附属标签 O O  <EOS> 修改宽带
+<BOS> 我 宽带 密码 想 修改  <EOS>	<BOS> O O B-附属标签 O O  <EOS> 修改宽带
+<BOS> 我 宽带 密码 想换 一个  <EOS>	<BOS> O O B-附属标签 O O  <EOS> 修改宽带
+<BOS> 我 宽带 密码 想改 一下  <EOS>	<BOS> O O B-附属标签 O O  <EOS> 修改宽带
+<BOS> 我 家庭 宽带 密码 想改 一下  <EOS>	<BOS> O O O B-附属标签 O O  <EOS> 修改宽带
+<BOS> 我家 宽带 密码 怎么 修改  <EOS>	<BOS> O O B-附属标签 O O  <EOS> 修改宽带
+<BOS> 开个 一百元 流量  <EOS>	<BOS> O B-金额 O  <EOS> 开通流量
+<BOS> 给 我 开个 一百块 钱 的 流量  <EOS>	<BOS> O O O B-金额 O O O  <EOS> 开通流量
+<BOS> 给 我 开个 一百块 钱 的 流量 包  <EOS>	<BOS> O O O B-金额 O O O O  <EOS> 开通流量
+<BOS> 有 一百元 的 流量 吗 给 我 开 一个  <EOS>	<BOS> O B-金额 O O O O O O O  <EOS> 开通流量
+<BOS> 有 一百元 的 流量 包 吗 给 我 开 一个  <EOS>	<BOS> O B-金额 O O O O O O O O  <EOS> 开通流量
+<BOS> 我要 一百元 的 流量  <EOS>	<BOS> O B-金额 O O  <EOS> 开通流量
+<BOS> 我要 一百元 的 流量 包  <EOS>	<BOS> O B-金额 O O O  <EOS> 开通流量
+<BOS> 我要 一百块 钱 的 流量 包  <EOS>	<BOS> O B-金额 O O O O  <EOS> 开通流量
+<BOS> 我要 一百块 钱 的 流量  <EOS>	<BOS> O B-金额 O O O  <EOS> 开通流量
+<BOS> 可以 给 我 开 一个 一百块 钱 的 流量 包 吗  <EOS>	<BOS> O O O O O B-金额 O O O O O  <EOS> 开通流量
+<BOS> 我要 一个 一百块 钱 的 流量  <EOS>	<BOS> O O B-金额 O O O  <EOS> 开通流量
+<BOS> 我 想 买 一百块 钱 的 流量  <EOS>	<BOS> O O O B-金额 O O O  <EOS> 开通流量
+<BOS> 一百五十元 流量 包 开通  <EOS>	<BOS> B-金额 O O O  <EOS> 开通流量
+<BOS> 开通 一百五十元 流量  <EOS>	<BOS> O B-金额 O  <EOS> 开通流量
+<BOS> 开通 一百五十元 流量 包  <EOS>	<BOS> O B-金额 O O  <EOS> 开通流量
+<BOS> 开个 一百五十元 流量  <EOS>	<BOS> O B-金额 O  <EOS> 开通流量
+<BOS> 给 我 开个 一百五十块 钱 的 流量  <EOS>	<BOS> O O O B-金额 O O O  <EOS> 开通流量
+<BOS> 给 我 开个 一百五十块 钱 的 流量 包  <EOS>	<BOS> O O O B-金额 O O O O  <EOS> 开通流量
+<BOS> 有 一百五十元 的 流量 吗 给 我 开 一个  <EOS>	<BOS> O B-金额 O O O O O O O  <EOS> 开通流量
+<BOS> 有 一百五十元 的 流量 包 吗 给 我 开 一个  <EOS>	<BOS> O B-金额 O O O O O O O O  <EOS> 开通流量
+<BOS> 我要 一百五十元 的 流量  <EOS>	<BOS> O B-金额 O O  <EOS> 开通流量
+<BOS> 我要 一百五十元 的 流量 包  <EOS>	<BOS> O B-金额 O O O  <EOS> 开通流量
+<BOS> 我要 一百五十块 钱 的 流量 包  <EOS>	<BOS> O B-金额 O O O O  <EOS> 开通流量
+<BOS> 我要 一百五十块 钱 的 流量  <EOS>	<BOS> O B-金额 O O O  <EOS> 开通流量
+<BOS> 可以 给 我 开 一个 一百五十块 钱 的 流量 包 吗  <EOS>	<BOS> O O O O O B-金额 O O O O O  <EOS> 开通流量
+<BOS> 我要 一个 一百五十块 钱 的 流量  <EOS>	<BOS> O O B-金额 O O O  <EOS> 开通流量
+<BOS> 我 想 买 一百五十块 钱 的 流量  <EOS>	<BOS> O O O B-金额 O O O  <EOS> 开通流量
+<BOS> 二百元 流量 包 开通  <EOS>	<BOS> B-金额 O O O  <EOS> 开通流量
+<BOS> 开通 二百元 流量  <EOS>	<BOS> O B-金额 O  <EOS> 开通流量
+<BOS> 开通 二百元 流量 包  <EOS>	<BOS> O B-金额 O O  <EOS> 开通流量
+<BOS> 你好 我 这个 可以 办理 十元 一 g 一天 包 的 么  <EOS>	<BOS> O O O O O O O O O B-流量业务对象类型 O O  <EOS> 开通流量
+<BOS> 十元 一 g 国内 流量 二十 4 小时 失效 的 如何 开通  <EOS>	<BOS> O O O O B-流量业务对象类型 O O O O O O O  <EOS> 开通流量
+<BOS> 开通 国内 流量 十元 一 g 二十 4 小时 是 全国 吗  <EOS>	<BOS> O O B-流量业务对象类型 O O O O O O O O O  <EOS> 开通流量
+<BOS> 国内 二十 4 小时 流量 包 十元 一 g 的 那个 怎么 办理 呢  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 O O O O O O O O  <EOS> 开通流量
+<BOS> 一天 包 十元 一 g 是不是 立即 生效  <EOS>	<BOS> O B-流量业务对象类型 O O O O O O  <EOS> 开通流量
+<BOS> 开通 一个 十元 一 g 一天 的  <EOS>	<BOS> O O B-金额 O O B-流量业务对象类型 O  <EOS> 开通流量
+<BOS> 十元 一 g 的 流量 一天 的 开通 一下  <EOS>	<BOS> O O O O B-流量业务对象类型 O O O O  <EOS> 开通流量
+<BOS> 你好 十元 一 g 的 短时 国内 流量 怎么 开通  <EOS>	<BOS> O O O O O O O B-流量业务对象类型 O O  <EOS> 开通流量
+<BOS> 我 想 开通 十元 一 g 短时 流量 包  <EOS>	<BOS> O O O O O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 我要 取消 三十元 的 基础 流量 包  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 帮 我 取消 三十元 钱 的 流量 包 基础 的  <EOS>	<BOS> O O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 我 的 三十元 基础 包想 取消 掉  <EOS>	<BOS> O O O B-流量业务对象类型 O O O  <EOS> 取消流量
+<BOS> 能 不能取消 三十元 的 基础 流量 包  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 操作 取消 三十元 基础 流量 包  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 可以 帮 我 把 三十元 基础 流量 包 取消 吗  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 你 知道 怎么 取消 三十元 基础 流量 包 吗  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 如何 取消 三十元 的 基础 流量 包  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 帮 我 把 三十元 的 基础 流量 包 取消 了 吧  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O O  <EOS> 取消流量
+<BOS> 我 需要 取消 三十元 的 基础 流量 包  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 你 知道 取消 三十元 基础 流量 包 的 方法 吗  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O O  <EOS> 取消流量
+<BOS> 三十元 的 基础 流量 包帮 我 取消 了 吧  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 O O O O O  <EOS> 取消流量
+<BOS> 取消 基础 流量 包 三十元 的  <EOS>	<BOS> O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 三十元 的 基础 流量 包 取消 不要 了  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O O  <EOS> 取消流量
+<BOS> 我能 不能 去 下 三十元 的 基础 流量 包  <EOS>	<BOS> O O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 你 能 取消 我 的 三十元 基础 流量 包 吗  <EOS>	<BOS> O O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 怎样 取消 三十元 的 基础 流量 包  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 你 赶紧 帮 我 把 基础 流量 包 三十元 的 取消 了 吧  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O O O O  <EOS> 取消流量
+<BOS> 你 这里 能 取消 三十元 的 基础 流量 包 吗  <EOS>	<BOS> O O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 三十元 的 基础 流量 包 取消 一下  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 我办 的 那个 三十 的 基础 流量 包 取消 不要 了  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O O  <EOS> 取消流量
+<BOS> 基础 流量 包 三十 的 取消 了 谢谢  <EOS>	<BOS> B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O O O O  <EOS> 取消流量
+<BOS> 三十 的 基础 流量 包 不要 了  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 那个 十元 的 加油 包 我 真的 不 想要 了 呀 取消 了 吧  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 O O O O O O O O O  <EOS> 取消流量
+<BOS> 莫名其妙 办 了 一个 十元 的 加油 包给 我 取消 了 我 又 没用  <EOS>	<BOS> O O O O O O B-流量业务对象类型 O O O O O O O  <EOS> 取消流量
+<BOS> 别 啰嗦 赶紧 取消 十元 的 那个 破 加油 包  <EOS>	<BOS> O O O O O O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 给 我 把 二十元 的 加油 包 取消 了  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 我 想 取消 二十元 的 加油 包  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 二十元 的 加油 包没 啥 用 取消 了 吧  <EOS>	<BOS> O O B-流量业务对象类型 O O O O O O  <EOS> 取消流量
+<BOS> 我要 取消 二十元 的 加油 包好 吗  <EOS>	<BOS> O O O O B-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 可以 取消 二十元 的 加油 包 吗  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 我 二十元 的 加油 包 不要 了 取消 了 吧  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 O O O O O  <EOS> 取消流量
+<BOS> 帮 我 把 二十元 的 加油 包 取消 了  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 取消 一下 二十元 的 加油 包  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 帮 我 把 二十元 的 流量 加油 包 取消 掉  <EOS>	<BOS> O O O O O O B-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 取消 二十元 加油 包好 吗  <EOS>	<BOS> O O B-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 请 帮 我 取消 二十元 的 加油 包吧  <EOS>	<BOS> O O O O O O B-流量业务对象类型 O  <EOS> 取消流量
+<BOS> 你 这里 能 取消 流量 加油 二十元 的 吗  <EOS>	<BOS> O O O O O B-流量业务对象类型 O O O  <EOS> 取消流量
+<BOS> 不 小心 开 了 一个 二十元 的 加油 包帮 我 取消 了 吧  <EOS>	<BOS> O O O O O O O B-流量业务对象类型 O O O O O  <EOS> 取消流量
+<BOS> 我 想要 取消 加油 包 二十元 的  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 二十元 的 加油 包是 个 什么 玩意 赶紧 给 我 取消 的  <EOS>	<BOS> O O B-流量业务对象类型 O O O O O O O O O  <EOS> 取消流量
+<BOS> 帮 我 把 二十元 的 加油 包 流量 取消 谢谢 啦  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 O O O O  <EOS> 取消流量
+<BOS> 取消 二十元 加油 包爱 你 么 么 哒  <EOS>	<BOS> O O B-流量业务对象类型 O O O O O  <EOS> 取消流量
+<BOS> 给 我 取消 了 那个 二十元 的 加油 包不 想要 了  <EOS>	<BOS> O O O O O O O B-流量业务对象类型 O O O  <EOS> 取消流量
+<BOS> 我 想 取消 掉 二十元 的 加油 包 好不好 呀  <EOS>	<BOS> O O O O O O B-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 那个 二十元 的 加油 包 我 真的 不 想要 了 呀 取消 了 吧  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型 O O O O O O O O O  <EOS> 取消流量
+<BOS> 莫名其妙 办 了 一个 二十元 的 加油 包给 我 取消 了 我 又 没用  <EOS>	<BOS> O O O O O O B-流量业务对象类型 O O O O O O O  <EOS> 取消流量
+<BOS> 别 啰嗦 赶紧 取消 二十元 的 那个 破 加油 包  <EOS>	<BOS> O O O O O O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 给 我 把 三十元 的 加油 包 取消 了  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 我 想 取消 三十元 的 加油 包  <EOS>	<BOS> O O O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 取消流量
+<BOS> 三十元 的 加油 包没 啥 用 取消 了 吧  <EOS>	<BOS> O O B-流量业务对象类型 O O O O O O  <EOS> 取消流量
+<BOS> 我要 取消 三十元 的 加油 包好 吗  <EOS>	<BOS> O O O O B-流量业务对象类型 O O  <EOS> 取消流量
+<BOS> 你 可是 我 手机 就 交 话费 来充 了 一百 充了  <EOS>	<BOS> O O O O O O O O O B-金额 O  <EOS> 办理手机充值
+<BOS> 二十 十元 加油 包  <EOS>	<BOS> O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 流量
+<BOS> 服务 密码 重 设置  <EOS>	<BOS> O B-附属标签 O O  <EOS> 重置手机
+<BOS> 我 想 问 一下 我 那个 夜间 流量 还 剩 多少  <EOS>	<BOS> O O O O O O B-流量业务对象类型 I-流量业务对象类型 O O O  <EOS> 查询流量
+<BOS> 三元 十元 一 百兆  <EOS>	<BOS> B-金额 B-金额 O O  <EOS> 流量
+<BOS> 我 看 十元 流量 套餐  <EOS>	<BOS> O O B-金额 O O  <EOS> 流量
+<BOS> 我要 查询 我 的 这个 密码  <EOS>	<BOS> O O O O O B-附属标签  <EOS> 查询
+<BOS> 将 我 的 是 三十八 元 套餐 改成  <EOS>	<BOS> O O O O B-金额 O O O  <EOS> 办理套餐
+<BOS> 流量 关于 流量 为什么 我订 了 十元 的 套餐 的 流量  <EOS>	<BOS> O O O O O O B-金额 O O O O  <EOS> 开通流量
+<BOS> 办理 二十 的 吗  <EOS>	<BOS> O O O O  <EOS> 办理
+<BOS> 三十 兆 三十 兆 是 多少 三十元 十块钱 是 多少 兆  <EOS>	<BOS> B-金额 O B-金额 O O O B-金额 B-金额 O O O  <EOS> 查询流量
+<BOS> 返回 帮 我 办 一下 那个 三十元 的  <EOS>	<BOS> O O O O O O B-金额 O  <EOS> 办理
+<BOS> 夜间 流量 是 几点钟 开始  <EOS>	<BOS> B-流量业务对象类型 I-流量业务对象类型 O O O  <EOS> 流量
+<BOS> 我查 下流 那个 加油 包吧  <EOS>	<BOS> O O O B-流量业务对象类型 O  <EOS> 查询流量
+<BOS> 给 我 开 一下 那个 开 一下 加油 包 吗  <EOS>	<BOS> O O O O O O O B-流量业务对象类型 I-流量业务对象类型 O  <EOS> 开通流量
+<BOS> 给 我 这个 月 的 话费 还 剩 多少  <EOS>	<BOS> O O O B-月份 O O O O O  <EOS> 查询余额
+<BOS> 开 加油 包 可以 可以 吗  <EOS>	<BOS> O B-流量业务对象类型 I-流量业务对象类型 O O O  <EOS> 开通流量
+<BOS> 其它 的 不要 了 办理 好 十元 的 就 可以 啊 十元 加油  <EOS>	<BOS> O O O O O O B-金额 O O O O B-金额 O  <EOS> 办理
+<BOS> 十元 开 的 业务  <EOS>	<BOS> B-金额 O O O  <EOS> 查询本机业务
+<BOS> 我 我查 一下 我 的 话费 我 才刚 交了 不久 一百块 钱  <EOS>	<BOS> O O O O O O O O O O B-金额 O  <EOS> 查询余额
+<BOS> 最低 消费 五十八 给 我 查询 这个 套餐  <EOS>	<BOS> O O B-数字 O O O O O  <EOS> 套餐
+<BOS> 给 我查 最低 消费 五十八 六十八 送 多少 分钟 多少  <EOS>	<BOS> O O O O B-数字 O O O O O  <EOS> 查询
+<BOS> 我 就 查 这个 月 的  <EOS>	<BOS> O O O O B-月份 O  <EOS> 查询
+<BOS> 我 这 月话费 痘 疤 的 多少  <EOS>	<BOS> O O B-月份 O O O O  <EOS> 查询余额
+<BOS> 呃 我 想 问 一下 它 这个 加油 包 余额 办理 的话 在 全  <EOS>	<BOS> O O O O O O O B-流量业务对象类型 I-流量业务对象类型 O O O O O  <EOS> 开通流量
+<BOS> 五元 多少 兆 流量  <EOS>	<BOS> B-金额 O O O  <EOS> 流量
+<BOS> 五元 五元 多少 兆 流量  <EOS>	<BOS> B-金额 B-金额 O O O  <EOS> 流量
+<BOS> 我 想 请问 一下 我 的 流量 没有 了 我 想 办 一下 十五  <EOS>	<BOS> O O O O O O O O O O O O O O  <EOS> 开通流量
+<BOS> 家庭计划 两元 套餐  <EOS>	<BOS> O O O  <EOS> 套餐
+<BOS> 办理 加油 包 十元 加油 包  <EOS>	<BOS> O B-流量业务对象类型 I-流量业务对象类型 O I-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 把 我 这个 手机号码 给 我 下个月 情况  <EOS>	<BOS> O O O O O O B-月份 O  <EOS> 查询本机号码
+<BOS> 把 我加 三十元 的 加油 包  <EOS>	<BOS> O O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 办理 办理 十元 加油 包  <EOS>	<BOS> O O O B-流量业务对象类型 I-流量业务对象类型  <EOS> 开通流量
+<BOS> 我要 包 五元 五百 兆 的 流量  <EOS>	<BOS> O O B-金额 O O O O  <EOS> 开通流量
+<BOS> 有没有 五元 五百 兆  <EOS>	<BOS> O B-金额 O O  <EOS> 开通流量
