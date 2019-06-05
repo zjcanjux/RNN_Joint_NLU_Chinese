@@ -44,7 +44,7 @@ data.py          		    convert BIO label data into index data
 ## Add pytorch implementation for Joint model
 see pytorch joint folder
 
-Reference:
+## Reference:
 
 - [Tensorflow动态seq2seq使用总结（r1.3）](https://github.com/applenob/RNN-for-Joint-NLU/blob/master/tensorflow_dynamic_seq2seq.md)
 - https://github.com/HadoopIt/rnn-nlu)
