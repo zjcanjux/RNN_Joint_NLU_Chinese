@@ -43,6 +43,7 @@ data.py          		    convert BIO label data into index data
 
 ## Add pytorch implementation for Joint model
 see pytorch joint folder
+主要是计算效率上的小优化，每个batch计算的句子长度一样，以batch中最长的句子为基准，而不是所有batch都是统一长度。
 
 ## Reference:
 
