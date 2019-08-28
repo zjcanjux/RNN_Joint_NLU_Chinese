@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*
 import torch.nn as nn
 from model_pytorch import *
-from chinese_data import *
 from data_pytorch import *
 from my_metrics import *
 import os
