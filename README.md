@@ -42,8 +42,11 @@ B_I_slot_label.py       process the raw data by BIO label method 实现中文语
 data.py          		    convert BIO label data into index data
 
 ## Add pytorch implementation for Joint model
-see pytorch joint folder
+见 pytorch joint folder
 主要是计算效率上的小优化，每个batch计算的句子长度一样，以batch中最长的句子为基准，而不是所有batch都是统一长度。
+
+用到词向量 链接:https://pan.baidu.com/s/1RaEcYVW5n6Dz7-GBtSP_sA  密码:unzz 
+也可以根据需要用其他的词向量。
 
 ## Reference:
 
