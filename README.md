@@ -2,7 +2,9 @@
 
 ## Discription
 
- 意图识别(intent detect)和填槽(slot filling)两个任务用seq2seq框架整合在一个模型中实现
+意图识别(intent detect)和填槽(slot filling)两个任务的联合模型
+
+用seq2seq框架整合在一个模型中实现
 
 Encoder使用`tf.nn.bidirectional_dynamic_rnn`实现
 
